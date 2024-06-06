@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-style {
+    padding: 8px 24px;
+    border-radius: 3px;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+}
+.padding-4 {
+    padding: 4px;
+}
+.letter-space-14 {
+    letter-spacing: 1.4px;
+}
+.margin-8-0 {
+    margin: 8px 0;
+}
+.margin-16-0 {
+    margin: 16px 0;
+}
+.flex-style {
+    display: flex;
+}
+.text-center {
+    text-align: center;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.width-100per {
+    width: 100%;
+}
+.button:hover {
+    opacity: 0.8;
+}
+td {
+    border: 1px solid rgb(156, 156, 156);
+    padding: 10px 20px;
+}
+thead td {
+    text-align: center;
+}
+.container {
+    margin: 0 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-title {
+    letter-spacing: 1.4px;
+    font-weight: 400;
+    margin: 20px;
+}
+.delete-btn{
+    text-decoration-color: white;
+    background-color: red;
+    padding: 4px 12px;
+    float: right;
+    border-radius: 2px;
+    border: 1px solid green;
+}
+.send-btn {
+    padding: 4px 12px;
+    border-radius: 2px;
+    border: 1px solid green;
+}
+#myButton.clicked {
+    background-color: red;
+  }
+
+.icon {
+    opacity: 0;
+}
+
